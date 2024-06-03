@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'calibri';
+    /* border: 1px solid black */
+}
+
+
+
+
+header {
+    background-color: rgb(186, 240, 222);
+    padding: 1em;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+}
+
+.aligned{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.body-center{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-login{
+    background-color: rgb(247, 239, 239);
+}
+
+.box-2-x{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-principal-login{
+    background-color: rgba(217, 243, 236, 0.7);
+    height: 70%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.box-img-login{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(154, 231, 211);
+    border-radius: 10px;
+}
+
+.box-img-login > h3 {
+    width: 80%;
+    text-align: justify;
+    color: antiquewhite;
+}
+
+.buttons{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0.5em;
+    font-size: 125%;
+    border-radius: 5px;
+    background-color: rgb(154, 231, 211);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ele-input-login{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.ele-login{
+    width: 100%;
+    height: 25%;
+    border: inherit;
+    padding: 2em;
+    
+}
+
+.ele-login > input:focus {
+   border-width: 0px;
+}
+
+.img-login{
+    width: 80%;
+}
+
+.input-login{
+    display: block;
+    width: 100%;
+    height: 80%;
+    font-size: 100%;
+    border-width: 0px;
+    border-bottom: 2px solid black;
+    background-color: inherit;
+    
+}
+
+.logo-header{
+
+    height: 100%;
+
+}
+
+.sub-box-login{
+    width: 50%;
+    height: 100%;
+}
+
+.linkLimpo {
+    text-decoration: none;
+}
+
+#logoLink {
+    font-size: 50px;
+}
+
+.botaoLogin {
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.botaoLogin:hover {
+    color: white;
+    background-color: rgb(59, 245, 189);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.boxs {
+    border-radius: 10px;
+    width: 70%;
+    height: 200px;
+}
+
+#box-slider{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.slider{
+    padding-top: 10vh;
+    background: rgb(255, 1, 1);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slides > input {
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    height: 100%;
+    
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-manual-slider{
+    padding: 1em;
+    width: 100%;
+    height: 5%;
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+}
+
+.bnt-manual-slider{
+    border: 2px solid wheat;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin: 1%;
+}
+
+#radio-01:checked ~ .img-slide-01 {
+    margin-left: 0%;
+}
+
+#radio-02:checked ~ .img-slide-01 {
+    margin-left: -25%;
+}
+
+#radio-03:checked ~ .img-slide-01 {
+    margin-left: -50%;
+}
+
+#radio-04:checked ~ .img-slide-01 {
+    margin-left: -75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.destaque {
+    background-color: rgb(112, 210, 228);
+    border-radius: 10px;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+}
+
+
+
+
+.boxLinks{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em auto;
+    padding: 1em;
+    width: 90%;
+}
+
+.boxs{
+    background-color: rgb(183, 223, 247);
+    border-radius: 10px;
+    width: 30%;
+    height: 400px;
+}
+
+footer{
+    background-color: rgb(155, 250, 234);
+    padding: 2em;
+}
+
+/*
+border: 2px solid rgb(0, 0, 0);
+
+.box01 {
+    background-color: rgb(133, 241, 111);
+}
+
+.box02 {
+    background-color: rgb(35, 146, 13);
+}
+
+.box03 {
+    background-color: rgb(72, 114, 64);
+}
+
+.box04 {
+    background-color: rgb(128, 173, 119);
+}*/
